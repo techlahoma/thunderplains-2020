@@ -1,0 +1,122 @@
+[
+  {
+    "start_time": "8:00am",
+    "full": {
+      "title": "Registration & Coffee"
+    }
+  },
+  {
+    "start_time": "8:45am",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "9:30am",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "10:20am",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "11:10am",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "12:00pm",
+    "full": {
+      "title": "Lunch"
+    }
+  },
+  {
+    "start_time": "1:30pm",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "2:20pm",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "3:10pm",
+    "full": {
+      "title": "Snack Break"
+    }
+  },
+  {
+    "start_time": "3:40pm",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "4:30pm",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "5:20pm",
+    "full": {
+      "title": "TALK_TITLE",
+      "speaker": {
+        "name": "SPEAKER_NAME",
+        "twitter": "twitter"
+      }
+    }
+  },
+  {
+    "start_time": "6:10pm",
+    "full": {
+      "title": "Closing Remarks"
+    }
+  },
+  {
+    "start_time": "6:30pm",
+    "full": {
+      "title": "Afterparty"
+    }
+  }
+]
