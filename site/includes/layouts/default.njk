@@ -16,6 +16,8 @@
 
     {# favicon #}
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
 </head>
 
 <body {% if body_class %} id="{{ body_class }}"{% endif %} class="min-h-full font-sans text-lg text-purple-darkest bg-grey-lightest leading-normal">
@@ -27,6 +29,9 @@
 
         {# include content #}
         {{ content | safe }}
+
+        {# Sticky Banner #}
+        {% include "components/banner.njk" %}
 
         {# include footer #}
         {% include "components/footer.njk" %}
