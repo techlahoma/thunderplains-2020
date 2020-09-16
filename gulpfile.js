@@ -150,6 +150,7 @@ gulp.task('dev', ['css', 'js:compile'], function () {
  */
 gulp.task('css:compile:preflight', function () {
     return gulp.src(paths.sass.source)
+        .pipe(plumber({errorHandler:onError}))
         .pipe(sass())
         .pipe(postcss([
             tailwindcss('./tailwind.config.js'),
@@ -188,7 +189,7 @@ gulp.task('css:compile:preflight', function () {
         .pipe(rename({
             extname: '.css'
         }))
-        .pipe(gulp.dest('css/'));
+        .pipe(gulp.dest(paths.sass.dest));
 });
 
 /**
