@@ -188,7 +188,7 @@ gulp.task('css:compile:preflight', function () {
         .pipe(rename({
             extname: '.css'
         }))
-        .pipe(gulp.dest('css/'));
+        .pipe(gulp.dest(paths.sass.dest));
 });
 
 /**
