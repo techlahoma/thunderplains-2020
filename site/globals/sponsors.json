@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Sponsors",
+    "level": "silver",
+    "tailwind_color": "yellow-darker",
+    "img_width": 250,
+    "per_row": 3,
+    "companies": [
+      {
+        "name": "Robert-Half Technology",
+        "a_href": "https://www.roberthalf.com/work-with-us/our-services/technology",
+        "img_src": "rht.jpg"
+      },
+      {
+        "name": "Bitness Labs",
+        "a_href": "https://bitnesslabs.com",
+        "img_src": "bitness-labs.png"
+      }
+    ]
+  }
+]
