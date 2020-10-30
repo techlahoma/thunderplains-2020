@@ -57,62 +57,53 @@ title: ThunderPlains 2020
   </div>
 </div>
 
-<div class="container mx-auto py-8 px-4 hidden">
-  <h2 id="schedule">Schedule</h2>
+<div class="container mx-auto py-8 px-4">
+  <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10" id="schedule">Schedule</h2>
 
   {% for schedule in schedule %}
-  <div class="p-0 sm:p-4">
-    <h3 class="bg-teal-dark text-teal-lightest p-4 m-0 text-center">{{ schedule.start_time }}</h3>
+    <div class="p-0 sm:p-4">
+      <h3 class="bg-teal-dark text-teal-lightest p-4 m-0 text-center">{{ schedule.start_time }}</h3>
 
-    <div class="flex flex-col md:flex-row">
-      {% if schedule.full %}
-      <div class="m-0 px-0 py-4 sm:px-4">
-        <div class="text-xl font-semibold">{{ schedule.full.title }}</div>
+        {% if schedule.full %}
+        <div class="flex flex-col md:flex-row justify-center">
+          <div class="flex flex-col m-0 px-0 py-4 sm:px-4">
+            <div class="text-xl font-semibold">{{ schedule.full.title }}</div>
 
-        {% if schedule.full.speaker %}
-          {% if schedule.full.speaker.twitter %}
-          <div><a href="https://www.twitter.com/{{ schedule.full.speaker.twitter }}">{{ schedule.full.speaker.name }}</a></div>
-          {% else %}
-          <div>{{ schedule.full.speaker.name }}</div>
-          {% endif %}
+            {% if schedule.full.speaker %}
+            <div><a href="https://www.twitter.com/{{ schedule.full.speaker.twitter }}">{{ schedule.full.speaker.name }}</a></div>
+          </div>
+          <div class="m-0 px-0 py-4 sm:px-4" style="width:50%">
+            <img width="400px" src="/images/{{ schedule.full.speaker.image }}"/>
+
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if schedule.track_a %}
+        <div class="flex flex-col md:flex-row">
+
+          <div class="flex flex-col m-0 px-0 py-4 sm:px-4 justify-center" style="width:50%">
+            <div class="text-xl font-semibold text-right">{{ schedule.track_a.title }}</div>
+            <div class="text-right"><a href="https://www.twitter.com/{{ schedule.track_a.speaker.twitter }}">{{ schedule.track_a.speaker.name }}</a></div>
+          </div>
+          <div class="flex flex-row justify-start m-0 px-0 py-4 sm:px-4 text-left" style="width:50%">
+            <img width="400px" src="/images/{{ schedule.track_a.speaker.image }}"/>
+          </div>
+        {% endif %}
+
+        {% if schedule.track_b %}
+        <div class="flex flex-col md:flex-row">
+
+          <div class="flex flex-row m-0 px-0 py-4 sm:px-4 text-left justify-end" style="width:50%">
+            <img width="400px" src="/images/{{ schedule.track_b.speaker.image }}"/>
+          </div>
+          <div class="flex flex-col justify-center m-0 px-0 py-4 sm:px-4" style="width:50%">
+            <div class="text-xl font-semibold text-left">{{ schedule.track_b.title }}</div>
+            <div class="text-left"><a href="https://www.twitter.com/{{ schedule.track_b.speaker.twitter }}">{{ schedule.track_b.speaker.name }}</a></div>
+          </div>
         {% endif %}
       </div>
-
-      {% else %}
-      <div class="flex flex-col w-full md:w-1/2 m-0">
-        <div class="bg-teal-lighter text-center m-0 p-2">Room 16 (Upstairs)</div>
-        <div class="px-0 py-4 sm:px-4">
-          <div class="text-xl font-semibold">{{ schedule.track_a.title }}</div>
-
-          {% if schedule.track_a.speaker %}
-            {% if schedule.track_a.speaker.twitter %}
-            <div><a href="https://www.twitter.com/{{ schedule.track_a.speaker.twitter }}">{{ schedule.track_a.speaker.name }}</a></div>
-            {% else %}
-            <div>{{ schedule.track_a.speaker.name }}</div>
-            {% endif %}
-          {% endif %}
-        </div>
-      </div>
-      {% endif %}
-
-      {% if schedule.track_b %}
-      <div class="flex flex-col w-full md:w-1/2 m-0">
-        <div class="bg-yellow-light text-center m-0 p-2">Room 17 (Upstairs)</div>
-        <div class="px-0 py-4 sm:px-4">
-          <div class="text-xl font-semibold">{{ schedule.track_b.title }}</div>
-
-          {% if schedule.track_b.speaker %}
-            {% if schedule.track_b.speaker.twitter %}
-            <div><a href="https://www.twitter.com/{{ schedule.track_b.speaker.twitter }}">{{ schedule.track_b.speaker.name }}</a></div>
-            {% else %}
-            <div>{{ schedule.track_b.speaker.name }}</div>
-            {% endif %}
-          {% endif %}
-        </div>
-      </div>
-      {% endif %}
     </div>
-  </div>
   {% endfor %}
 </div>
 

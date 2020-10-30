@@ -1,122 +1,80 @@
 [
   {
-    "start_time": "8:00am",
-    "full": {
-      "title": "Registration & Coffee"
-    }
-  },
-  {
-    "start_time": "8:45am",
-    "full": {
-      "title": "TALK_TITLE",
+    "start_time": "9am",
+    "track_a": {
+      "title": "Keynote: There are No Snow Days When You Work Remote",
       "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
+        "name": "Jennifer Wadella",
+        "twitter": "twitter",
+        "image": "jennifer-wadella.png"
       }
     }
   },
   {
-    "start_time": "9:30am",
-    "full": {
-      "title": "TALK_TITLE",
+    "start_time": "10am",
+    "track_b": {
+      "title": "Just go for it: The story of dance-mat.js",
       "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
+        "name": "Ramón Huidobro",
+        "twitter": "twitter",
+        "image": "ramon-huidobro.jpg"
       }
     }
   },
   {
-    "start_time": "10:20am",
-    "full": {
-      "title": "TALK_TITLE",
+    "start_time": "11am",
+    "track_a": {
+      "title": "Mo'Problems, Mo'Nads",
       "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
+        "name": "Kyle Simpson",
+        "twitter": "twitter",
+        "image": "kyle-simpson.jpg"
       }
     }
   },
   {
-    "start_time": "11:10am",
-    "full": {
-      "title": "TALK_TITLE",
-      "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
-      }
-    }
-  },
-  {
-    "start_time": "12:00pm",
+    "start_time": "12pm",
     "full": {
       "title": "Lunch"
     }
   },
   {
-    "start_time": "1:30pm",
+    "start_time": "1pm",
     "full": {
-      "title": "TALK_TITLE",
+      "title": "Lightning Talks"
+    }
+  },
+  {
+    "start_time": "2pm",
+    "track_b": {
+      "title": "Making VR More Interesting With JavaScript and Brain.js",
       "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
+        "name": "Milecia McGregor",
+        "twitter": "twitter",
+        "image": "milecia-mcgregor.jpg"
       }
     }
   },
   {
-    "start_time": "2:20pm",
-    "full": {
-      "title": "TALK_TITLE",
+    "start_time": "3pm",
+    "track_a": {
+      "title": "NodeJS, ML, K8s, and Unethical Face Recognition",
       "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
+        "name": "Joel Lord",
+        "twitter": "twitter",
+        "image": "joel-lord.jpg"
       }
     }
   },
   {
-    "start_time": "3:10pm",
-    "full": {
-      "title": "Snack Break"
-    }
-  },
-  {
-    "start_time": "3:40pm",
-    "full": {
-      "title": "TALK_TITLE",
+    "start_time": "4pm",
+    "track_b": {
+      "title": "Put Down the Javascript - Level Up With the Fundamentals of Web Development",
       "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
+        "name": "Colby Fayock",
+        "twitter": "twitter",
+        "image": "colby-fayock.jpg"
       }
-    }
-  },
-  {
-    "start_time": "4:30pm",
-    "full": {
-      "title": "TALK_TITLE",
-      "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
-      }
-    }
-  },
-  {
-    "start_time": "5:20pm",
-    "full": {
-      "title": "TALK_TITLE",
-      "speaker": {
-        "name": "SPEAKER_NAME",
-        "twitter": "twitter"
-      }
-    }
-  },
-  {
-    "start_time": "6:10pm",
-    "full": {
-      "title": "Closing Remarks"
-    }
-  },
-  {
-    "start_time": "6:30pm",
-    "full": {
-      "title": "Afterparty"
     }
   }
 ]
