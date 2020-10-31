@@ -35,13 +35,15 @@
   {
     "start_time": "12pm",
     "full": {
-      "title": "Lunch"
+      "title": "Lunch",
+      "description": "Get sorted into a lunch group and meet up with 5 other conference attendees to eat lunch together."
     }
   },
   {
     "start_time": "1pm",
     "full": {
-      "title": "Lightning Talks"
+      "title": "Lightning Talks",
+      "description": "Hear some lightning talks from the community"
     }
   },
   {
@@ -75,6 +77,13 @@
         "twitter": "twitter",
         "image": "colby-fayock.jpg"
       }
+    }
+  },
+  {
+    "start_time": "5pm",
+    "among": {
+      "title": "Networking",
+      "description": "Join us after the conference for a some networking and a few games of"
     }
   }
 ]
