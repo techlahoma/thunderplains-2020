@@ -5,7 +5,8 @@
       "title": "Keynote: There are No Snow Days When You Work Remote",
       "speaker": {
         "name": "Jennifer Wadella",
-        "twitter": "twitter",
+        "twitter": "likeOMGitsFEDAY",
+        "company": "Bitovi",
         "image": "jennifer-wadella.jpg"
       }
     }
@@ -16,7 +17,6 @@
       "title": "Just go for it: The story of dance-mat.js",
       "speaker": {
         "name": "Ramón Huidobro",
-        "twitter": "twitter",
         "image": "ramon-huidobro.jpg"
       }
     }
@@ -27,7 +27,6 @@
       "title": "Mo'Problems, Mo'Nads",
       "speaker": {
         "name": "Kyle Simpson",
-        "twitter": "twitter",
         "image": "kyle-simpson.jpg"
       }
     }
@@ -52,7 +51,6 @@
       "title": "Making VR More Interesting With JavaScript and Brain.js",
       "speaker": {
         "name": "Milecia McGregor",
-        "twitter": "twitter",
         "image": "milecia-mcgregor.jpg"
       }
     }
@@ -63,7 +61,6 @@
       "title": "NodeJS, ML, K8s, and Unethical Face Recognition",
       "speaker": {
         "name": "Joel Lord",
-        "twitter": "twitter",
         "image": "joel-lord.jpg"
       }
     }
@@ -74,7 +71,6 @@
       "title": "Put Down the Javascript - Level Up With the Fundamentals of Web Development",
       "speaker": {
         "name": "Colby Fayock",
-        "twitter": "twitter",
         "image": "colby-fayock.jpg"
       }
     }
