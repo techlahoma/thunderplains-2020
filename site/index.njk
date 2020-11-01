@@ -101,10 +101,10 @@ title: ThunderPlains 2020
   {% for sponsorLevel in sponsors %}
 
   <div class="m-4">
-    <h3 class="text-center">{{ sponsorLevel.title }}</h3>
+    <h3 class="text-center text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">{{ sponsorLevel.title }}</h3>
     <div class="container flex flex-row flex-wrap items-center justify-between content-center">
     {% for sponsor in sponsorLevel.companies %}
-      <div class="flex-1 border-4 border-{{ sponsorLevel.tailwind_color }} text-center w-full md:w-1/2 m-4 p-4" style="min-width: {{ sponsorLevel.img_width }}px">
+      <div class="flex-1 flex justify-center border-4 border-{{ sponsorLevel.tailwind_color }} text-center w-full md:w-1/2 m-4 p-4" style="min-width: {{ sponsorLevel.img_width }}px">
         <a href="{{ sponsor.a_href }}" target="_blank">
           <img src="/images/sponsor-logos/{{ sponsor.img_src }}" width="{{ sponsorLevel.img_width }}" /><br />{{ sponsor.name }}
         </a>
