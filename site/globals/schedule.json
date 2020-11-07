@@ -6,7 +6,6 @@
       "speaker": {
         "name": "Jennifer Wadella",
         "twitter": "likeOMGitsFEDAY",
-        "company": "Bitovi",
         "image": "jennifer-wadella.jpg"
       }
     }
@@ -17,6 +16,7 @@
       "title": "Just go for it: The story of dance-mat.js",
       "speaker": {
         "name": "Ramón Huidobro",
+        "twitter": "hola_soy_milk",
         "image": "ramon-huidobro.jpg"
       }
     }
@@ -26,6 +26,7 @@
     "track_a": {
       "title": "Mo'Problems, Mo'Nads",
       "speaker": {
+        "twitter": "getify",
         "name": "Kyle Simpson",
         "image": "kyle-simpson.jpg"
       }
@@ -51,6 +52,7 @@
       "title": "Making VR More Interesting With JavaScript and Brain.js",
       "speaker": {
         "name": "Milecia McGregor",
+        "twitter": "FlippedCoding",
         "image": "milecia-mcgregor.jpg"
       }
     }
@@ -61,6 +63,7 @@
       "title": "NodeJS, ML, K8s, and Unethical Face Recognition",
       "speaker": {
         "name": "Joel Lord",
+        "twitter": "joel__lord",
         "image": "joel-lord.jpg"
       }
     }
@@ -71,6 +74,7 @@
       "title": "Put Down the Javascript - Level Up With the Fundamentals of Web Development",
       "speaker": {
         "name": "Colby Fayock",
+        "twitter": "colbyfayock",
         "image": "colby-fayock.jpg"
       }
     }
