@@ -43,7 +43,9 @@
     "start_time": "1pm",
     "full": {
       "title": "Lightning Talks",
-      "description": "Hear some lightning talks from the community"
+      "description": "Hear some lightning talks from the community",
+      "website": "https://docs.google.com/forms/d/e/1FAIpQLScB5p-kHGrYbFBOtocy6XJmubc-Uxq_MuL63UtLMF3BtE039A/viewform",
+      "website_description": "Sign up to give a 5-10 minute talk!"
     }
   },
   {
