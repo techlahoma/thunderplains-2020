@@ -41,6 +41,9 @@ title: ThunderPlains 2020
           <div class="flex flex-col m-0 px-0 py-4 sm:px-4" style="max-width:500px">
             <div class="text-xl font-semibold text-center">{{ schedule.full.title }}</div>
             <div class="text-center">{{ schedule.full.description }}</div>
+            {% if schedule.full.website %}
+            <div class="text-center"><a class="underline" href="{{ schedule.full.website }}">{{ schedule.full.website_description }}</a></div>
+            {% endif %}
           </div>
         </div>
         {% endif %}
