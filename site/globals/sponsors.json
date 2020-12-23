@@ -21,6 +21,11 @@
         "a_href": "https://www.roberthalf.com/work-with-us/our-services/technology",
         "img_src": "rht.jpg"
       }
+            {
+        "name": "McGuire Law Firm",
+        "a_href": "https://www.kentmcguirelaw.com/",
+        "img_src": "rht.jpg"
+      }
     ]
   }
 ]
